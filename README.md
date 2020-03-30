@@ -8,7 +8,7 @@ TEM DE ESTAR NA PASTA PELO TERMINAL, PARA ENTÃO MANDAR: <br/>
 $ g++ -ggdb main.cpp -o tst pkg-config --cflags --libs opencv4 <br/>
 $./tst
 
-Divisão do projeto: 
-Felipe: geração do jogo e das imagens selecionadas aleatoriamente;
-Lara: reconhecimento dos objetos e posicionamento das imagens geradas;
+Divisão do projeto: <br/>
+Felipe: geração do jogo e das imagens selecionadas aleatoriamente; <br/>
+Lara: reconhecimento dos objetos e posicionamento das imagens geradas; <br/>
 Maria Eduarda: menu do jogo, sistema de pontos e high score em arquivo.
