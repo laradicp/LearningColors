@@ -8,7 +8,7 @@ Na pasta JOGO: <br/>
 $ g++ *.cpp *.h -o tst \`pkg-config --cflags --libs opencv4\` <br/>
 $./tst
 
-## Divisão do projeto: <br/>
+## Divisão do projeto <br/>
 Felipe: geração do jogo e das imagens selecionadas aleatoriamente; <br/>
 Lara: reconhecimento dos objetos e posicionamento das imagens geradas; <br/>
 Maria Eduarda: menu do jogo, sistema de pontos e high score em arquivo.
