@@ -1,14 +1,14 @@
 # LearningColors
-Projeto para as disciplinas de Linguagem de Programação I e Laboratório de Linguagem de Programação I.
+Project developed for teaching the colors to toddlers through a game.
 
-Voltado ao aprendizado das cores por bebês, nosso projeto é um jogo que consiste em combinar objetos com cores iguais. Para jogá-lo, é necessário segurar algo de cor amarela (ou de outra cor, caso haja mudança nos parâmetros relacionados à detecção), a fim de possibilitar o rastreamento da mão.
+The objective is to match the object in the middle of the screen with the other one with the same color. After a succesful match, the respective color is announced by sound. The player needs to hold something yellow (or of another color, if the parameters are adjusted) in order to OpenCV identify the hand and therefore which object is being selected among options.
 
-## Para compilar <br/>
-Na pasta JOGO: <br/>
+## To compile <br/>
+Inside folder JOGO: <br/>
 $ g++ *.cpp *.h -o tst \`pkg-config --cflags --libs opencv4\` <br/>
 $./tst
 
-## Divisão do projeto <br/>
-Felipe: geração do jogo e das imagens selecionadas aleatoriamente; <br/>
-Lara: reconhecimento dos objetos e posicionamento das imagens geradas; <br/>
-Maria Eduarda: menu do jogo, sistema de pontos e high score em arquivo.
+## Contributors <br/>
+Felipe Honorato (https://github.com/Felipehonorato1); <br/>
+Lara di Cavalcanti Pontes; <br/>
+Maria Eduarda Dantas Hardman (https://github.com/dudahardman).
